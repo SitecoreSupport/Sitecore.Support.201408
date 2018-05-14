@@ -1,6 +1,4 @@
-﻿
-
-using System;
+﻿using System;
 using Sitecore.Analytics;
 using Sitecore.CES.DeviceDetection;
 using Sitecore.CES.DeviceDetection.Exceptions;
@@ -37,7 +35,11 @@ namespace Sitecore.Support.CES.DeviceDetection.Rules
     private string GetUserAgentFromDeviceRuleContext(DeviceRuleContext deviceRuleContext)
     {
       Assert.ArgumentNotNull(deviceRuleContext, "deviceRuleContext");
-      Assert.IsNotNull(deviceRuleContext.HttpContext, "deviceRuleContext.HttpContext is null");
+      if (deviceRuleContext.HttpContext == null)
+      {
+        return null;
+      }
+
       Assert.IsNotNull(deviceRuleContext.HttpContext.Request, "deviceRuleContext.HttpContext.Request is null");
       return deviceRuleContext.HttpContext.Request.UserAgent;
     }
