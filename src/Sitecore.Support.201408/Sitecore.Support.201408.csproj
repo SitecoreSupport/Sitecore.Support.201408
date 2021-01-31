@@ -41,24 +41,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sitecore.Analytics, Version=11.18.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.Analytics.9.0.0\lib\Sitecore.Analytics.dll</HintPath>
+    <Reference Include="Sitecore.Analytics, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Analytics.8.2.3\lib\Sitecore.Analytics.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.CES.DeviceDetection, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.CES.DeviceDetection.9.0.0\lib\Sitecore.CES.DeviceDetection.dll</HintPath>
+    <Reference Include="Sitecore.CES.DeviceDetection, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.CES.DeviceDetection.8.2.3\lib\Sitecore.CES.DeviceDetection.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.CES.DeviceDetection.Rules, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.CES.DeviceDetection.Rules.9.0.0\lib\Sitecore.CES.DeviceDetection.Rules.dll</HintPath>
+    <Reference Include="Sitecore.CES.DeviceDetection.Rules, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.CES.DeviceDetection.Rules.8.2.3\lib\Sitecore.CES.DeviceDetection.Rules.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Kernel">
-      <HintPath>..\packages\SC.Sitecore.Kernel.9.0.0\lib\Sitecore.Kernel.dll</HintPath>
+    <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Kernel.8.2.3\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Xdb.Configuration, Version=11.40.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.Xdb.Configuration.9.0.0\lib\Sitecore.Xdb.Configuration.dll</HintPath>
+    <Reference Include="Sitecore.Xdb.Configuration, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Xdb.Configuration.8.2.3\lib\Sitecore.Xdb.Configuration.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
